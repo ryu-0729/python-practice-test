@@ -4,7 +4,7 @@ from time import time
 
 def loop1():
     cnt = 0
-    for i in range(100):
+    for _ in range(100):
         cnt += 1
 
     print(f"loop1: {cnt=}")
@@ -13,7 +13,7 @@ def loop1():
 
 def loop2():
     cnt = 0
-    for i in range(100000):
+    for _ in range(100000):
         cnt += 1
 
     print(f"loop2: {cnt=}")
